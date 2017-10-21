@@ -1,4 +1,4 @@
-USE tdemo;
+USE twitterintuit;
 -- ADD USERS TO THE DATABASE
 
 INSERT INTO users (username, password, enabled) VALUES ('jdoe', 'test', 1);

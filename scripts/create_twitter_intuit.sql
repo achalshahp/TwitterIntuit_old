@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS tdemo;
-USE tdemo;
+CREATE DATABASE  IF NOT EXISTS twitterintuit;
+USE twitterintuit;
 -- TABLE USERS
 
 CREATE TABLE users
