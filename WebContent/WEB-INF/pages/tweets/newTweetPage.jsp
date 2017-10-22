@@ -1,6 +1,5 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-
 <html>
 <head>
   <title>Employee Twitter :: New Tweet</title>
@@ -49,7 +48,7 @@
       var tweet = document.getElementById("tweet").value;
       $.post("${pageContext.request.contextPath}/tweet/create",{tweet:tweet,commandName:"tweetForm"}).always(function(data){
         alert(data.message);
-        window.location = "${pageContext.request.contextPath}/tweets/formatted";
+        window.location = "${pageContext.request.contextPath}/tweets/all";
       });
     }
   </script>
