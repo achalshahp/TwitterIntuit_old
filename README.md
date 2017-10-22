@@ -62,3 +62,4 @@ As part of enhancing our internal services which are available to our employees,
 5. Use the application on your browser or by doing requests to the API  
     If running from a browser go to : http://localhost:8080/TwitterIntuit/ 
   * to use the endpoints of the application, you first need to successfully login
+6. Alternatively, for testing the CRUD actions you can even use [Postman](www.getpostman.com).
