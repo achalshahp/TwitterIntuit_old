@@ -3,7 +3,12 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+<<<<<<< HEAD
         <property name="java-output-path" value="/TwitterIntuit/target/classes"/>
         <property name="context-root" value="TwitterIntuit"/>
+=======
+        <property name="context-root" value="TwitterIntuit"/>
+        <property name="java-output-path" value="/TwitterIntuit/target/classes"/>
+>>>>>>> 55c2a60d146fec7dac8ed8bc3919aa498e9875fb
     </wb-module>
 </project-modules>
